@@ -38,6 +38,7 @@
             this.btnDivide = new System.Windows.Forms.Button();
             this.txtResult = new System.Windows.Forms.TextBox();
             this.txtTotal = new System.Windows.Forms.TextBox();
+            this.btnReset = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblFirstNumber
@@ -125,14 +126,25 @@
             // 
             this.txtTotal.Location = new System.Drawing.Point(212, 299);
             this.txtTotal.Name = "txtTotal";
-            this.txtTotal.Size = new System.Drawing.Size(316, 22);
+            this.txtTotal.Size = new System.Drawing.Size(240, 22);
             this.txtTotal.TabIndex = 4;
+            // 
+            // btnReset
+            // 
+            this.btnReset.Location = new System.Drawing.Point(453, 298);
+            this.btnReset.Name = "btnReset";
+            this.btnReset.Size = new System.Drawing.Size(75, 23);
+            this.btnReset.TabIndex = 5;
+            this.btnReset.Text = "Reset";
+            this.btnReset.UseVisualStyleBackColor = true;
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnReset);
             this.Controls.Add(this.txtTotal);
             this.Controls.Add(this.txtResult);
             this.Controls.Add(this.btnDivide);
@@ -163,6 +175,7 @@
         private System.Windows.Forms.Button btnDivide;
         private System.Windows.Forms.TextBox txtResult;
         private System.Windows.Forms.TextBox txtTotal;
+        private System.Windows.Forms.Button btnReset;
     }
 }
 

@@ -49,5 +49,11 @@ namespace WinUI
             double result = calculator.Divide(double.Parse(txtFirstNumber.Text), double.Parse(txtSecondNumber.Text));
             ShowResult(result);
         }
+
+        private void btnReset_Click(object sender, EventArgs e)
+        {
+            Calculator.Total = 0;
+            txtTotal.Text = Calculator.Total.ToString();
+        }
     }
 }
