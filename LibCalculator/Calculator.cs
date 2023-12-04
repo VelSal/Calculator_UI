@@ -8,6 +8,7 @@ namespace LibCalculator
 {
     public class Calculator
     {
+        public static double Total { get ; set; }
         public double Add(double nr1, double nr2)
         {
             return nr1 + nr2;

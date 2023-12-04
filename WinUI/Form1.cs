@@ -21,6 +21,8 @@ namespace WinUI
         private void ShowResult(double result)
         {
             txtResult.Text = result.ToString();
+            Calculator.Total += double.Parse(txtResult.Text);
+            txtTotal.Text = Calculator.Total.ToString();
         }
         private void Form1_Load(object sender, EventArgs e)
         {
