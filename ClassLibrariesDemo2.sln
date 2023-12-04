@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleUI", "ConsoleUI\ConsoleUI.csproj", "{AEE33DDD-B422-48CD-9C8C-5CA6A2229A3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibCalculator", "LibCalculator\LibCalculator.csproj", "{DABF8A10-C418-4700-9504-D9141EEE5D08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinUI", "WinUI\WinUI.csproj", "{7210F5A8-55EE-497C-814F-983F0B563A78}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEE33DDD-B422-48CD-9C8C-5CA6A2229A3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEE33DDD-B422-48CD-9C8C-5CA6A2229A3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEE33DDD-B422-48CD-9C8C-5CA6A2229A3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEE33DDD-B422-48CD-9C8C-5CA6A2229A3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DABF8A10-C418-4700-9504-D9141EEE5D08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DABF8A10-C418-4700-9504-D9141EEE5D08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DABF8A10-C418-4700-9504-D9141EEE5D08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DABF8A10-C418-4700-9504-D9141EEE5D08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7210F5A8-55EE-497C-814F-983F0B563A78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7210F5A8-55EE-497C-814F-983F0B563A78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7210F5A8-55EE-497C-814F-983F0B563A78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7210F5A8-55EE-497C-814F-983F0B563A78}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6A07C656-8497-465D-83FA-3136C4063E51}
+	EndGlobalSection
+EndGlobal
